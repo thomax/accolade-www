@@ -1,6 +1,6 @@
 # accolade
 
-The (Accolade)[https://github.com/thomax/accolade/] skill algorithm behind an HTTP API
+The [Accolade](https://github.com/thomax/accolade/) skill algorithm behind an HTTP API
 
 ## Usage
 
