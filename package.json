@@ -1,0 +1,38 @@
+{
+  "name": "accolade-www",
+  "version": "1.0.0",
+  "description": "Accolade skill alogo wrapped in a web api",
+  "homepage": "https://github.com/thomax/accolade-www#readme",
+  "author": "Thomas Drevon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomax/accolade-www/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "dev-start": "babel-node ./src/index.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomax/accolade-www.git"
+  },
+  "keywords": [
+    "skill",
+    "foosball",
+    "ftw"
+  ],
+  "dependencies": {
+    "accolade": "0.0.1",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1",
+    "mocha": "^3.5.0"
+  }
+}
